@@ -1,46 +1,42 @@
 <template>
   <!-- <section class="container"> -->
   <section>
-    <div class="container">
-      <!-- <logo/> -->
-      <div class="inner p-0">
-        <p
-          class="text-white bg-purple"
-        >練馬およびその周辺地域の在宅医療 すみれホームケアクリニック‐患者様の「おうちで過ごしたい」を医師が24時間サポートします．‐</p>
-        <div class="bg-light">
+    <!-- <logo/> -->
+    <div class="jumbotron-extend1 jumbotron">
+      <div class="container">
+        <h1 class="lead">練馬およびその周辺地域の在宅医療---すみれホームケアクリニック</h1>
+        <div>
           <img src="~/assets/sumire_2_2.png" class="w-25">
           <span class="float-right">
             電話での相談は随時受け付けております.
             <br>
           </span>
-          <span class="text-purple float-right">TEL03-6904-5828．</span>
+          <span class="float-right">電話：03-6904-5828</span>
         </div>
-        <div>
-          <img src="~/assets/mainImage.jpg">
-        </div>
-        <div class="mt-3">
-          <div class="row inner">
-            <img src="~/assets/top_copy.gif" class="bg-pink col-md-6">
-            <span class="bg-danger col-md-6">
-              近年様々な病気が医学の進歩で克服されましたが、その結果継続的に治療を受け人生を過ごす方が少なくありません。
-              認知症、脳卒中などの神経疾患や、がんが代表的ですが、患者さんにとっては治療が生活や人生の全てではなく、できれば住み慣れた家で生活したいいと考える方も増えています。こうした変化の背景として、従来入院でしかできなかった治療が在宅でもできるようになったことが挙げられます。更に自分の生活のペースを変えずに家族に囲まれた環境で療養することで、生活の質の向上も期待できます。
-              当院では、通院が困難な方や在宅での療養を希望される方に定期的な訪問診療をすることにより、最適な医療を提供したいと考えています。
-            </span>
-          </div>
-        </div>
-
-        <div class="links">
-          <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-        </div>
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        >
       </div>
     </div>
+    <img src="~/assets/mainImage.jpg">
+    <div class="mt-3">
+      <div class="row inner">
+        <img src="~/assets/top_copy.gif" class="bg-pink col-md-6">
+        <span class="bg-danger col-md-6">
+          近年様々な病気が医学の進歩で克服されましたが、その結果継続的に治療を受け人生を過ごす方が少なくありません。
+          認知症、脳卒中などの神経疾患や、がんが代表的ですが、患者さんにとっては治療が生活や人生の全てではなく、できれば住み慣れた家で生活したいいと考える方も増えています。こうした変化の背景として、従来入院でしかできなかった治療が在宅でもできるようになったことが挙げられます。更に自分の生活のペースを変えずに家族に囲まれた環境で療養することで、生活の質の向上も期待できます。
+          当院では、通院が困難な方や在宅での療養を希望される方に定期的な訪問診療をすることにより、最適な医療を提供したいと考えています。
+        </span>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
+      <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    >
   </section>
 </template>
 
@@ -64,9 +60,12 @@ export default {
   text-align: left;
 } */
 
-.inner {
-  width: 980px;
+.jumbotron-extend1 {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  background-color: white important;
 }
+
 .bg-purple {
   background-color: rgb(143, 125, 184);
 }
