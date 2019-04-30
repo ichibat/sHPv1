@@ -7,12 +7,62 @@
         <h1 class="lead">練馬およびその周辺地域の在宅医療---すみれホームケアクリニック</h1>
         <div>
           <img src="~/assets/sumire_2_2.png" class="w-25">
-          <span class="float-right">
-            電話での相談は随時受け付けております.
-            <br>
-          </span>
-          <span class="float-right">電話：03-6904-5828</span>
+          <p class="float-right">電話での相談は随時受け付けております.</p>
+          <br>
+          <p class="float-right lead">電話：03-6904-5828</p>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">トップページ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  クリニックのご紹介
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">診療のご紹介</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  お問い合わせ
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  ブログ
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              >
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
       </div>
     </div>
     <img src="~/assets/mainImage.jpg">
@@ -27,10 +77,6 @@
       </div>
     </div>
 
-    <div class="links">
-      <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-      <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-    </div>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -62,7 +108,7 @@ export default {
 
 .jumbotron-extend1 {
   padding-top: 12px !important;
-  padding-bottom: 12px !important;
+  padding-bottom: 120px !important;
   background-color: white important;
 }
 
