@@ -106,7 +106,7 @@ export default {
   text-align: left;
 } */
 
-.jumbotron-extend1 {
+/* .jumbotron-extend1 {
   padding-top: 12px !important;
   padding-bottom: 120px !important;
   background-color: white important;
@@ -146,5 +146,5 @@ export default {
 
 .example {
   float: left;
-}
+} */
 </style>
