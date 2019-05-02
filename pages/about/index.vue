@@ -1,60 +1,57 @@
 <template>
-  <div>
-    <header class="nav">
-      <div class="nav-left">
-        <span class="nav-item">
-          <span class="fa fa-language"></span>一言SNS
-        </span>
-      </div>
-      <div class="nav-right">
-        <span class="nav-item">
-          <div class="control has-addons">
-            <input type="search" class="input" name="search" placeholder="キーワード検索">
-            <a class="button is-info">
-              <i class="fa fa-search"></i>検索
-            </a>
+  <article>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <div>
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="~assets/sumire_rogo.png" width="33" height="33">
+            <span>練馬およびその周辺地域の在宅医療 すみれホームケアクリニック</span>
+          </a>
+        </div>
+        <div>
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">トップページ</a>
+            <a class="navbar-item">クリニックのご紹介</a>
+            <a class="navbar-item">交通案内</a>
+            <a class="navbar-item">お問い合わせ</a>
+            <a class="navbar-item">ブログ</a>
           </div>
-        </span>
-        <span class="nav-item">
-          <a href="#" class="fa fa-user">ログイン</a>
-        </span>
-      </div>
-    </header>
 
-    <div class="hero is-info is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">CASAREAL</h1>
-          <h2 class="subtitle">@casareal-ls</h2>
+          <div class="navbar-start">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">Log in</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
-    <section class="level">
-      <div class="level-left"></div>
-      <div class="level-right">
-        <div class="level-item tabs">
-          <ul>
-            <li class="is-active">
-              <a>最近の一言</a>
-            </li>
-            <li>
-              <a>古い一言</a>
-            </li>
-            <li>
-              <a>コメント付き</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="level-right">
-        <div class="level-item">
-          <a class="button is-greylight">フォロー</a>
-        </div>
-      </div>
-    </section>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"> -->
-  </div>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    >
+  </article>
 </template>
 
 <script>
