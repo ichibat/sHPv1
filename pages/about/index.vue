@@ -1,57 +1,54 @@
 <template>
-  <article>
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div>
+    <nav class="navbar is-white">
       <div class="navbar-brand">
-        <div>
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="~assets/sumire_rogo.png" width="33" height="33">
-            <span>練馬およびその周辺地域の在宅医療 すみれホームケアクリニック</span>
-          </a>
-        </div>
-        <div>
-          <a
-            role="button"
-            class="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
+        <a class="navbar-item" href="https://bulma.io">
+          <img
+            src="~/assets/sumire_rogo.png"
+            alt="Bulma: a modern CSS framework based on Flexbox"
+            width="28"
+            height="28"
           >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
+          <span>
+            <strong>すみれホームケアクリニック</strong>
+          </span>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/band">トップページ</a>
+          <a class="navbar-item" href="/about">クリニックのご紹介</a>
+          <a class="navbar-item" href="https://bulma.io/">お問い合わせ</a>
+          <a class="navbar-item" href="https://bulma.io/">ブログ</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/documentation/overview/start/">More</a>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="/documentation/overview/start/">Mechandise</a>
+              <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Extras</a>
+              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Media</a>
+            </div>
+          </div>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">トップページ</a>
-            <a class="navbar-item">クリニックのご紹介</a>
-            <a class="navbar-item">交通案内</a>
-            <a class="navbar-item">お問い合わせ</a>
-            <a class="navbar-item">ブログ</a>
-          </div>
-
-          <div class="navbar-start">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a class="button is-light">Log in</a>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field">
+              <div class="control">
+                <input class="input" type="text" placeholder="search . . .">
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    >
-  </article>
+  </div>
 </template>
 
 <script>
