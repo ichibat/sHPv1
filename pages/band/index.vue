@@ -1,61 +1,12 @@
 <template>
   <div>
-    <nav class="navbar is-white">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img
-            src="~/assets/sumire_rogo.png"
-            alt="Bulma: a modern CSS framework based on Flexbox"
-            width="28"
-            height="28"
-          >
-        </a>
-
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="/band">トップページ</a>
-          <a class="navbar-item" href="/about">クリニックのご紹介</a>
-          <a class="navbar-item" href="https://bulma.io/">お問い合わせ</a>
-          <a class="navbar-item" href="https://bulma.io/">ブログ</a>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">More</a>
-            <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="/documentation/overview/start/">Mechandise</a>
-              <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Extras</a>
-              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Media</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="field">
-              <div class="control">
-                <input class="input" type="text" placeholder="search . . .">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
     <section class="hero">
       <figure class="image">
         <img src="~/assets/mainImage.jpg">
       </figure>
     </section>
 
-    <h1
-      class="is-size-5 has-text-primary"
-    >練馬およびその周辺地域の在宅医療-すみれホームケアクリニック-患者様の「おうちで過ごしたい」を医師が24時間サポートします．</h1>
-    <h2 class="is-size-5">電話での相談は随時受け付けております．TEL03-6904-5828</h2>
+    <p class="is-size-5">電話での相談は随時受け付けております．TEL03-6904-5828</p>
 
     <section class="section">
       <div class="container has-text-centered">
@@ -65,8 +16,6 @@
           <br>&nbsp;こうした変化の背景として、従来入院でしかできなかった治療が在宅でもできるようになったことが挙げられます。
           更に自分の生活のペースを変えずに家族に囲まれた環境で療養することで、生活の質の向上も期待できます。
           当院では、通院が困難な方や在宅での療養を希望される方に定期的な訪問診療をすることにより、最適な医療を提供したいと考えています。
-          <br>&nbsp;電話(
-          <span class="has-text-info">03-6904-5828</span>)，メールでのご相談は随時受け付けておりますので，お気軽にご連絡ください．
         </p>
 
         <h2 class="title">お知らせ</h2>

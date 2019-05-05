@@ -1,6 +1,7 @@
 <template>
   <!-- <section class="container"> -->
   <section>
+    <Header/>
     <!-- <logo/> -->
     <div class="jumbotron-extend1 jumbotron">
       <div class="container">
@@ -87,13 +88,6 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-
-export default {
-  components: {
-    Logo
-  }
-};
 </script>
 
 <style>
