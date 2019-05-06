@@ -2,7 +2,13 @@
   <div>
     <footer>
       <div class="container">
-        <img src="~assets/sumire_2_2.png" alt="すみれホームケアクリニックロゴ" 　class="footer__image--medium">
+        <address>
+          <img src="~assets/sumire_2_2.png" alt="すみれホームケアクリニックロゴ" 　class="footer__image--medium">
+          <p>TEL 03-6904-5828</p>
+          <p>FAX 03-6904-5829</p>
+          <p>info@sumire-clinic.jp</p>
+          <p>住所 〒177-0031 東京都練馬区三原台3-26-14 ポレール石神井403</p>
+        </address>
         <nav>
           <a href="index.html">トップページ</a>
           <a href="about.html">このブログについて</a>
