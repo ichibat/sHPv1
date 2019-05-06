@@ -1,14 +1,10 @@
 <template>
   <nav class="navbar is-white">
+    <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img
-            src="~/assets/sumire_rogo.png"
-            alt="Bulma: a modern CSS framework based on Flexbox"
-            width="28"
-            height="28"
-          >
-        </a>
+        <nuxt-link to="/" class="navbar-item" >
+          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" width="28" height="28">
+        </nuxt-link>
 
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -19,10 +15,10 @@
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="/band">トップページ</a>
-          <a class="navbar-item" href="/about">クリニックのご紹介</a>
-          <a class="navbar-item" href="https://bulma.io/">お問い合わせ</a>
-          <a class="navbar-item" href="https://bulma.io/">ブログ</a>
+          <nuxt-link to="/" class="navbar-item">トップページ</nuxt-link>
+          <nuxt-link to="/about" class="navbar-item">クリニックのご紹介</nuxt-link>
+          <nuxt-link to="/contacts" class="navbar-item">お問い合わせ</nuxt-link>
+          <nuxt-link to="/blog" class="navbar-item">ブログ</nuxt-link>
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link" href="/documentation/overview/start/">More</a>
             <div class="navbar-dropdown is-boxed">
@@ -43,15 +39,13 @@
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 </template>
 
 <script>
-export default {
-  
-}
+export default {};
 </script>
 
 <style>
-
 </style>

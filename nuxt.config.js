@@ -16,7 +16,8 @@ export default {
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css' },
-      { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css" }
+      { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css" },
+      { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css" }
     ]
   },
 

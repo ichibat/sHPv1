@@ -1,12 +1,17 @@
 <template>
   <div>
     <section class="hero">
-      <figure class="image">
-        <img src="~/assets/mainImage.jpg">
-      </figure>
+      <h1>
+        <figure class="image">
+          <img
+            src="~/assets/mainImage.jpg"
+            　alt="練馬およびその周辺地域の在宅医療　すみれホームケアクリニック－患者様の「おうちで過ごしたい」を医師が24時間サポートします－"
+          >
+        </figure>
+      </h1>
     </section>
 
-    <p class="is-size-5">電話での相談は随時受け付けております．TEL03-6904-5828</p>
+    <p class="is-size-5 has-text-right">電話での相談は随時受け付けております．TEL03-6904-5828</p>
 
     <section class="section">
       <div class="container has-text-centered">
@@ -293,10 +298,10 @@
         <div class="content has-text-centered">
           <p>
             <a href>
-              <i class="fab fa-facebook-square fa-2x"></i>
+              <i class="fab fa-facebook-square fa-2x faa-wrench animated-hover"></i>
             </a>
             <a href>
-              <i class="fab fa-twitter-square fa-2x"></i>
+              <i class="fab fa-twitter-square fa-2x fa-spin"></i>
             </a>
             <a href>
               <i class="fab fa-instagram fa-2x"></i>
