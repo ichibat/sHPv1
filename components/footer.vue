@@ -1,7 +1,21 @@
 <template>
-  <div>
-    <footer>
-      <div class="container">
+  <footer class="footer">
+    <div class="container has-text-centered">
+      <p>
+        <a href>
+          <i class="fab fa-facebook-square fa-2x faa-wrench animated-hover"></i>
+        </a>
+        <a href>
+          <i class="fab fa-twitter-square fa-2x fa-spin"></i>
+        </a>
+        <a href>
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href>
+          <i class="fab fa-snapchat fa-2x"></i>
+        </a>
+      </p>
+      <div class="content">
         <address>
           <img src="~assets/sumire_2_2.png" alt="すみれホームケアクリニックロゴ" 　class="footer__image--medium">
           <p>TEL 03-6904-5828</p>
@@ -16,8 +30,8 @@
         </nav>
         <p>Copyright 2010</p>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </template>
 
 <script>

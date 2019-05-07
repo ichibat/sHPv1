@@ -4,6 +4,8 @@
       <div class="navbar-brand">
         <nuxt-link to="/" class="navbar-item" >
           <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" width="28" height="28">
+
+          <span>すみれホームケアクリニック</span>
         </nuxt-link>
 
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">

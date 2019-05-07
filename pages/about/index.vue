@@ -1,53 +1,16 @@
 <template>
   <div>
-    <nav class="navbar is-white">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img
-            src="~/assets/sumire_rogo.png"
-            alt="Bulma: a modern CSS framework based on Flexbox"
-            width="28"
-            height="28"
-          >
-          <span>
-            <strong>すみれホームケアクリニック</strong>
-          </span>
-        </a>
-
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <section class="section">
+      <div class="container has-text-left">
+        <h2>クリニックのご紹介---患者様・ご家族と話し合い、心のこもったオーダーメイドの在宅医療を提供します。</h2>
+        <h3>医師・ケアマネージャー・訪問看護師との連携で、在宅療養の環境を整備します。</h3>
+        <p>在宅は患者さんにとっては療養すると同時に生活の場ですので、医療だけではなく介護も必要になります。当院ではケアマネージャーさんや訪問看護師さんなどとも連携し在宅での療養環境整備のお手伝いをいたします。また在宅での療養が困難になった場合には近隣の病院を紹介いたします。</p>
+        <h3>24時間、365日の医学的サポートをいたします</h3>
+        <p>訪問診療に当たっては、原則として２週間に１回以上、あらかじめ予約した日時に医師が訪問し、診療・検査・薬の処方などを行います。訪問診療している方に対しては、緊急連絡先をお教えして、24時間、365日の医学的サポートをいたします。また、ご希望の方には薬局に依頼して、薬を配達していただきます。</p>
+        <h3>訪問診療の費用は保険でカバー</h3>
+        <p>訪問診療にかかる費用のほとんどは医療保険、介護保険でカバーされますが、保険の種類により負担額は異なりますので、詳しくはお問い合わせください。</p>
       </div>
-
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="/band">トップページ</a>
-          <a class="navbar-item" href="/about">クリニックのご紹介</a>
-          <a class="navbar-item" href="https://bulma.io/">お問い合わせ</a>
-          <a class="navbar-item" href="https://bulma.io/">ブログ</a>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">More</a>
-            <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="/documentation/overview/start/">Mechandise</a>
-              <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Extras</a>
-              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Media</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="field">
-              <div class="control">
-                <input class="input" type="text" placeholder="search . . .">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
+    </section>
   </div>
 </template>
 
@@ -57,3 +20,5 @@ export default {};
 
 <style>
 </style>
+
+
