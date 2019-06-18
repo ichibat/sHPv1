@@ -8,11 +8,17 @@
             　alt="練馬およびその周辺地域の在宅医療　すみれホームケアクリニック－患者様の「おうちで過ごしたい」を医師が24時間サポートします－"
           >
         </figure>
+        <p>
+          <i class="fas fa-bars"></i>
+        </p>
       </h1>
     </section>
 
     <section class="section">
       <div class="container">
+        <p>
+          <i class="fas fa-bars"></i>
+        </p>
         <p class="is-size-5 has-text-right">電話での相談は随時受け付けております．TEL03-6904-5828</p>
       </div>
     </section>
@@ -31,6 +37,7 @@
         <p>2019年5月7日 ホームページをリニューアルしました．</p>
       </div>
     </section>
+    <script src="https://kit.fontawesome.com/c29b4b1727.js"></script>
   </div>
 </template>
 
