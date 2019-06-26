@@ -39,7 +39,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["@/assets/css/foundation/_normalize.scss", "@/assets/css/main.scss"],
+  css: [
+    "@/assets/css/foundation/_normalize.scss",
+    "@/assets/css/layout/_grid.scss",
+    "@/assets/css/object/component/_header.scss"
+  ],
 
   /*
    ** Plugins to load before mounting the App

@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <!-- <h1 class="title">練馬およびその周辺地域の在宅医療 すみれホームケアクリニック－患者様の「おうちで過ごしたい」を医師が24時間サポートします－</h1> -->
-    <nav>
-      <div class="b2-1pad">
+  <div class="header">
+    <header>
+      <div class>
         <nuxt-link to="/">
-          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" width="70" height="auto">
+          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" class="c-header__logo">
           <span>すみれホームケアクリニック</span>
         </nuxt-link>
       </div>
@@ -23,7 +22,7 @@
           <nuxt-link to="/blog" class="navbar-item">ブログ</nuxt-link>
         </li>
       </ul>
-    </nav>
+    </header>
   </div>
 </template>
 
