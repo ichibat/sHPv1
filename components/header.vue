@@ -8,18 +8,18 @@
         </nuxt-link>
       </div>
 
-      <ul>
-        <li class="current">
-          <nuxt-link to="/" class="navbar-item">トップページ</nuxt-link>
+      <ul class="c-header__list">
+        <li class="c-header__item">
+          <nuxt-link to="/">トップページ</nuxt-link>
         </li>
-        <li>
-          <nuxt-link to="/about" class="navbar-item">クリニックのご紹介</nuxt-link>
+        <li class="c-header__item">
+          <nuxt-link to="/about">クリニックのご紹介</nuxt-link>
         </li>
-        <li>
-          <nuxt-link to="/contacts" class="navbar-item">お問い合わせ</nuxt-link>
+        <li class="c-header__item">
+          <nuxt-link to="/contacts">お問い合わせ</nuxt-link>
         </li>
-        <li>
-          <nuxt-link to="/blog" class="navbar-item">ブログ</nuxt-link>
+        <li class="c-header__item">
+          <nuxt-link to="/blog">ブログ</nuxt-link>
         </li>
       </ul>
     </header>

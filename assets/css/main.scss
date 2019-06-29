@@ -367,7 +367,7 @@ template {
 
 // <<layout>>==========================================================================
 
-.container {
+.l-container {
   display: grid;
   grid-row: 10%, 1fr, 15%;
 }
@@ -389,4 +389,12 @@ template {
 .c-header__logo {
   width: 10%;
   height: auto;
+}
+
+.c-header__list {
+  display: flex;
+}
+
+.c-header__item {
+  margin: 10px;
 }
