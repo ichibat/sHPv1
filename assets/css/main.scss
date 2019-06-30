@@ -379,6 +379,7 @@ body {
 // <<object/component>>==========================================================================
 .c-header {
   display: flex;
+  align-items: center;
 }
 
 .c-header__logo {
@@ -390,17 +391,20 @@ body {
   font-size: 2rem;
   color: black;
 }
+
+.c-header__navName {
+  font-size: 1.2rem;
+  color: black;
+}
 .c-header__item--left {
   justify-content: flex-start;
   align-items: center;
-  height: auto;
 }
 
 .c-header__item--right {
   padding: 5px;
   width: 20%;
   justify-content: flex-end;
-  align-items: center;
   height: auto;
 }
 
