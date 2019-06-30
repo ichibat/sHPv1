@@ -8,17 +8,17 @@
             <span class="c-header__name">すみれホームケアクリニック</span>
           </nuxt-link>
         </li>
-        <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/">トップページ</nuxt-link>
+        <li class="c-header__item--right">
+          <nuxt-link to="/" class="c-header__navName">トップページ</nuxt-link>
         </li>
         <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/about">クリニックのご紹介</nuxt-link>
+          <nuxt-link to="/about" class="c-header__navName">クリニックのご紹介</nuxt-link>
         </li>
         <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/contacts">お問い合わせ</nuxt-link>
+          <nuxt-link to="/contacts" class="c-header__navName">お問い合わせ</nuxt-link>
         </li>
         <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/blog">ブログ</nuxt-link>
+          <nuxt-link to="/blog" class="c-header__navName">ブログ</nuxt-link>
         </li>
       </ul>
     </header>
