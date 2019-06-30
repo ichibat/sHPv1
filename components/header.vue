@@ -1,14 +1,14 @@
 <template>
-  <div class="header">
-    <header>
-      <div class>
+  <div class="l-container">
+    <header class="l-header">
+      <span class="c-header__leftList">
         <nuxt-link to="/">
           <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" class="c-header__logo">
           <span>すみれホームケアクリニック</span>
         </nuxt-link>
-      </div>
+      </span>
 
-      <ul class="c-header__list">
+      <ul class="c-header__rightList">
         <li class="c-header__item">
           <nuxt-link to="/">トップページ</nuxt-link>
         </li>

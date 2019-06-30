@@ -369,30 +369,31 @@ template {
 
 .l-container {
   display: grid;
-  grid-row: 10%, 1fr, 15%;
+  grid-template-rows: 10% 1fr 15%;
 }
 
-.header {
-  display-row: 1/2;
+.l-header {
+  grid-row: 1/2;
 }
 
 .main {
-  display-row: 2/3;
+  grid-row: 2/3;
 }
 
 .footer {
-  display-row: 3/4;
+  grid-row: 3/4;
 }
 
 // <<object/component>>==========================================================================
 
 .c-header__logo {
-  width: 10%;
+  width: 6%;
   height: auto;
 }
 
-.c-header__list {
+.c-header__rightList {
   display: flex;
+  justify-content: flex-end;
 }
 
 .c-header__item {
