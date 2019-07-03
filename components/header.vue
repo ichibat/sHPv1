@@ -9,16 +9,16 @@
           </nuxt-link>
         </li>
         <li class="c-header__item--right">
-          <nuxt-link to="/" class="c-header__navName button">トップページ</nuxt-link>
+          <nuxt-link to="/" class="c-header__navName button is-rounded">トップページ</nuxt-link>
         </li>
         <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/about" class="c-header__navName button">クリニックのご紹介</nuxt-link>
+          <nuxt-link to="/about" class="c-header__navName button is-rounded">クリニックのご紹介</nuxt-link>
         </li>
         <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/contacts" class="c-header__navName button">お問い合わせ</nuxt-link>
+          <nuxt-link to="/contacts" class="c-header__navName button is-rounded">お問い合わせ</nuxt-link>
         </li>
         <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/blog" class="c-header__navName button">ブログ</nuxt-link>
+          <nuxt-link to="/blog" class="c-header__navName button is-rounded">ブログ</nuxt-link>
         </li>
       </ul>
     </header>
