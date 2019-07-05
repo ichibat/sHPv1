@@ -17,7 +17,15 @@ export default {
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       {
         rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
+        href: "https://unpkg.com/bulma@0.7.5/css/bulma.min.css"
+      },
+      {
+        rel: "stylesheet",
+        href: "../css/hero.css"
+      },
+      {
+        rel: "stylesheet",
+        href: "https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css"
       },
       {
         rel: "stylesheet",

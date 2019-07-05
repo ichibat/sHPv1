@@ -358,6 +358,10 @@ body {
   color: black;
 }
 
+.columns:nth-child(2) {
+  margin-top: -10rem;
+}
+
 .l-container {
   display: grid;
   grid-template-rows: 8% 1fr 15%;
