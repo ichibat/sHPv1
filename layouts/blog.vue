@@ -1,6 +1,6 @@
 <template>
   <div>
     <div>ブログのナビゲーションバーをここに設置します</div>
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
