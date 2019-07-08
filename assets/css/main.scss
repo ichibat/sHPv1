@@ -356,11 +356,14 @@ html,
 body {
   height: 100%;
   color: black;
+  font-size: 62.5%;
 }
 
+// bulma template より
 .columns:nth-child(2) {
   margin-top: -10rem;
 }
+// bulma template ここまで
 
 .l-container {
   display: grid;
@@ -392,7 +395,7 @@ body {
 }
 
 .c-header__name {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: black;
 }
 
