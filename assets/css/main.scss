@@ -359,6 +359,10 @@ body {
   font-size: 62.5%;
 }
 
+p {
+  font-size: 1.4rem;
+}
+
 // bulma template より
 .columns:nth-child(2) {
   margin-top: -10rem;
@@ -404,6 +408,7 @@ body {
   color: black;
 }
 .c-header__item--left {
+  display: flex;
   justify-content: flex-start;
   align-items: center;
 }
