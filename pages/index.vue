@@ -13,9 +13,6 @@
 
     <section class="section">
       <div class="container">
-        <p>
-          <i class="fas fa-bars fa-3x"></i>
-        </p>
         <p class="has-text-right">電話での相談は随時受け付けております．TEL03-6904-5828</p>
       </div>
     </section>

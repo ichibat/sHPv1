@@ -9,7 +9,7 @@
 
         <a
           role="button"
-          class="navbar-burger burger is-active"
+          class="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
@@ -19,7 +19,7 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div>
+      <div class="navbar-menu">
         <li class="c-header__item--right">
           <nuxt-link to="/" class="c-header__navName button is-rounded">トップページ</nuxt-link>
         </li>
