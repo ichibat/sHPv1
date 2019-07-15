@@ -1,13 +1,25 @@
 <template>
   <div>
-    <header class="l-header">
-      <ul class="c-header">
-        <li class="c-header__item--left">
-          <nuxt-link to="/">
-            <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" class="c-header__logo" />
-            <span class="c-header__name">すみれホームケアクリニック</span>
-          </nuxt-link>
-        </li>
+    <header class="navbar">
+      <div class="navbar-brand">
+        <nuxt-link to="/" class="navbar-item">
+          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" class="c-header__logo" />
+          <span class="c-header__name">すみれホームケアクリニック</span>
+        </nuxt-link>
+
+        <a
+          role="button"
+          class="navbar-burger burger is-active"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div>
         <li class="c-header__item--right">
           <nuxt-link to="/" class="c-header__navName button is-rounded">トップページ</nuxt-link>
         </li>
@@ -20,7 +32,7 @@
         <li class="c-header__item--right c-header__navName">
           <nuxt-link to="/blog" class="c-header__navName button is-rounded">ブログ</nuxt-link>
         </li>
-      </ul>
+      </div>
     </header>
   </div>
 </template>
