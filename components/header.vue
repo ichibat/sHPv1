@@ -3,8 +3,8 @@
     <header class="navbar">
       <div class="navbar-brand">
         <nuxt-link to="/" class="navbar-item">
-          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" class="c-header__logo" />
-          <span class="c-header__name">すみれホームケアクリニック</span>
+          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" width="112" height="50" />
+          <div class="navbar-item c-header__name">すみれホームケアクリニック</div>
         </nuxt-link>
 
         <a
