@@ -369,12 +369,6 @@ p {
 }
 // bulma template ここまで
 
-.l-container {
-  display: grid;
-  grid-template-rows: 8% 1fr 15%;
-  height: 100%;
-}
-
 .l-header {
   grid-row: 1/2;
 }

@@ -3,7 +3,7 @@
     <header class="navbar">
       <div class="navbar-brand">
         <nuxt-link to="/" class="navbar-item">
-          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" width="112" height="50" />
+          <img src="~/assets/sumire_rogo.png" alt="すみれホームケアクリニックロゴ" width="102" height="100" />
           <div class="navbar-item c-header__name">すみれホームケアクリニック</div>
         </nuxt-link>
 
@@ -20,18 +20,20 @@
         </a>
       </div>
       <div class="navbar-menu">
-        <li class="c-header__item--right">
-          <nuxt-link to="/" class="c-header__navName button is-rounded">トップページ</nuxt-link>
-        </li>
-        <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/about" class="c-header__navName button is-rounded">クリニックのご紹介</nuxt-link>
-        </li>
-        <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/contacts" class="c-header__navName button is-rounded">お問い合わせ</nuxt-link>
-        </li>
-        <li class="c-header__item--right c-header__navName">
-          <nuxt-link to="/blog" class="c-header__navName button is-rounded">ブログ</nuxt-link>
-        </li>
+        <div class="navbar-start">
+          <div class="navbar-itme">
+            <nuxt-link to="/">トップページ</nuxt-link>
+          </div>
+        </div>
+        <div class="navbar-itmem">
+          <nuxt-link to="/about">クリニックのご紹介</nuxt-link>
+        </div>
+        <div class="navbar-itmem">
+          <nuxt-link to="/contacts">お問い合わせ</nuxt-link>
+        </div>
+        <div class="navbar-itmem">
+          <nuxt-link to="/blog">ブログ</nuxt-link>
+        </div>
       </div>
     </header>
   </div>
