@@ -19,7 +19,7 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div class="navbar-menu">
+      <div class="navbar-menu is-size-3">
         <div class="navbar-start">
           <div class="navbar-itme">
             <nuxt-link to="/">トップページ</nuxt-link>
