@@ -32,7 +32,7 @@
           <nuxt-link to="/contacts">お問い合わせ</nuxt-link>
         </div>
         <div class="navbar-itmem">
-          <nuxt-link to="/blog">ブログ</nuxt-link>
+          <nuxt-link to="/blog">ブログ!</nuxt-link>
         </div>
       </div>
     </header>
